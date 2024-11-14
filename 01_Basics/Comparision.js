@@ -29,15 +29,11 @@ Avoid these types of Conversion.
 
 // Non Pirimitives or Reference
 // Array, Objects, Funtions
-const People [
-// Array 
-    Hassaan, 
-    Maheen, 
-    Minahil
-]
-{
-    Name: Hassaan,
-    Age:22,
-    Qualification: Metric-Ongoing
-    // Objects are written in Parenthesis
-}
+const People = [Hassaan, Maheen, Minahil]
+
+const data = {
+    Name: "Hassaan",
+    Age: 22,
+    Qualification: "Metric-Ongoing" // Objects are written in Parenthesis
+};
+console.log(data.Qualification)
