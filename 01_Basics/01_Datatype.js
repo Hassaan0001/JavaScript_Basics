@@ -41,11 +41,13 @@ NaN = false
 // console.log(typeof MyNumber)
 
 /*
- PREFIX AND POSTFIX
+
+PREFIX AND POSTFIX
 
  Prefix (++x): Incremented first, then value assigned.
  Postfix (x++): Value assigned first, then incremented.*/
-let x = 5;
+
+ let x = 5;
 const y = x++; // Postfix
 console.log(`x:${x}, y:${y}`);
 // similarly
