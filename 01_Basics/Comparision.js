@@ -21,19 +21,8 @@ But the undefined cannot be compared to numbers but to null.
 Avoid these types of Conversion.
 */
 // Pirimitives String, Boolean, Number, Null, Undefined, BigInt, Symbol
-// const id = Symbol('133');
-// const anotherId = Symbol('133')
-// console.log(id === anotherId);
-// const BigNumber = 681036585105650150554512n
-
-
+/
 // Non Pirimitives or Reference
 // Array, Objects, Funtions
-const People = [Hassaan, Maheen, Minahil]
-
-const data = {
-    Name: "Hassaan",
-    Age: 22,
-    Qualification: "Metric-Ongoing" // Objects are written in Parenthesis
-};
-console.log(data.Qualification)
+ 
+// https://262.ecma-international.org/5.1/#sec-11.4.3
