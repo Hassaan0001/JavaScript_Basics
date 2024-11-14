@@ -35,7 +35,20 @@ Number manualy*/
 null = false
 NaN = false
 
-*/
-let IHaveNumber = 40
-let MyNumber = String(IHaveNumber)
-console.log(typeof MyNumber)
+// */
+// let IHaveNumber = 40
+// let MyNumber = String(IHaveNumber)
+// console.log(typeof MyNumber)
+
+/*
+ PREFIX AND POSTFIX
+
+ Prefix (++x): Incremented first, then value assigned.
+ Postfix (x++): Value assigned first, then incremented.*/
+let x = 5;
+const y = x++; // Postfix
+console.log(`x:${x}, y:${y}`);
+// similarly
+let a = 5;
+const b = ++a; // Prefix
+console.log(`a:${a}, b:${b}`);
